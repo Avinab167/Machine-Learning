@@ -121,7 +121,7 @@ rf_r2   = r2_score(y_test, rf_pred)
 rf_mae  = mean_absolute_error(y_test, rf_pred)
 rf_rmse = np.sqrt(mean_squared_error(y_test, rf_pred))
 
-print(f"\n🌲 Random Forest Regressor:")
+print(f"\n Random Forest Regressor:")
 print(f"   R² Score : {rf_r2:.4f}  ({rf_r2*100:.1f}% variance explained)")
 print(f"   MAE      : {rf_mae:.2f} years")
 print(f"   RMSE     : {rf_rmse:.2f} years")
